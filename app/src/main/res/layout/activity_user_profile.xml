@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DASHBOARD"
+            android:textColor="#000"
+            android:fontFamily="@font/bungee"
+            android:textSize="40sp"
+            android:layout_marginTop="-20dp"/>
+
+        <ImageView
+            android:id="@+id/dash_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/login_img"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:padding="20dp"
+            >
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:drawableLeft="@drawable/user"
+                android:drawablePadding="10dp"
+                android:textSize="20dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:id="@+id/user_name_view"
+                android:layout_marginBottom="10dp"
+                >
+
+
+            </com.google.android.material.textview.MaterialTextView>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:drawableLeft="@drawable/name"
+                android:drawablePadding="10dp"
+                android:textSize="20dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:id="@+id/name_view"
+                android:layout_marginBottom="10dp">
+
+
+            </com.google.android.material.textview.MaterialTextView>
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="10dp"
+                android:textSize="20dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:id="@+id/email_view"
+                android:layout_marginBottom="10dp">
+
+
+            </com.google.android.material.textview.MaterialTextView>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone No"
+                android:drawableLeft="@drawable/phone"
+                android:drawablePadding="10dp"
+                android:textSize="20dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:id="@+id/phone_no_view"
+                android:layout_marginBottom="10dp">
+
+
+            </com.google.android.material.textview.MaterialTextView>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:drawableLeft="@drawable/password"
+                android:drawablePadding="10dp"
+                android:textSize="20dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:id="@+id/password_view"
+                android:layout_marginBottom="20dp">
+
+
+            </com.google.android.material.textview.MaterialTextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Verification"
+                android:textColor="#000"
+                android:fontFamily="@font/bungee"
+                android:textSize="25sp"
+                android:layout_marginTop="-20dp"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bungee"
+                android:onClick="goToPhoneVerifyScreen"
+                android:text="Phone Number" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SMS"
+                android:fontFamily="@font/bungee"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="URL"
+                android:fontFamily="@font/bungee"/>
+
+            
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+

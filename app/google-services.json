@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "791955244123",
+    "project_id": "surakshastra-96707",
+    "storage_bucket": "surakshastra-96707.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791955244123:android:d6524e9a1f59c96ae12b7e",
+        "android_client_info": {
+          "package_name": "com.example.surakshastra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791955244123-gsfvs7ikbb9i6logj564aub7sr5aomh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK-YCA0cXXKKvvZfm79f1xPVcj0vK-1P4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791955244123-gsfvs7ikbb9i6logj564aub7sr5aomh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
