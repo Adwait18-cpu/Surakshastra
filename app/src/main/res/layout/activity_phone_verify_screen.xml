@@ -8,25 +8,36 @@
     android:orientation="vertical"
     >
 
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fraud Numbers List"
-        android:textColor="#000"
-        android:fontFamily="@font/antic"
-        android:textSize="25sp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp"/>
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/reportNumberPageBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/bungee"
-        android:onClick="callReportNumberPage"
-        android:text="Report Number" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fraud Numbers List"
+            android:textColor="#000"
+            android:fontFamily="@font/bungee"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:id="@+id/reportNumberPageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/bungee"
+            android:onClick="callReportNumberPage"
+            android:text="Report Number"
+            />
+
+    </LinearLayout>
+
+
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

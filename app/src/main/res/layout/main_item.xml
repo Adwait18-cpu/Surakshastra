@@ -30,8 +30,9 @@
             android:layout_toRightOf="@+id/img1"
             android:text="Status"
             android:textColor="#000"
-            android:textSize="25sp"
-            android:textStyle="bold" />
+            android:textSize="20sp"
+            android:textStyle=""
+            android:fontFamily="@font/bungee"/>
 
         <TextView
             android:id="@+id/numbertext"
@@ -42,7 +43,8 @@
             android:layout_toRightOf="@+id/img1"
             android:text="Number"
             android:textColor="#000"
-            android:textSize="25sp"
+            android:textSize="18sp"
+            android:fontFamily="@font/bungee"
             />
 
     </RelativeLayout>
